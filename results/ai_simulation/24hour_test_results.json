@@ -1,0 +1,11 @@
+{
+  "standard_profit": -240.06180901062336,
+  "flashloan_profit": 30378.761797438092,
+  "ai_profit": 53311.01671366306,
+  "standard_trades": 99,
+  "flashloan_trades": 99,
+  "ai_trades": 99,
+  "standard_success_rate": 0.5416666666666666,
+  "flashloan_success_rate": 0.7916666666666666,
+  "ai_success_rate": 0.8333333333333334
+}

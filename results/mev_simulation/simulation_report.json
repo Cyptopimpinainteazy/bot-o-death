@@ -1,0 +1,202 @@
+{
+  "simulation_duration_hours": 24,
+  "simulation_start": "2025-03-26T12:29:33.165900",
+  "simulation_end": "2025-03-27T12:29:33.165900",
+  "total_opportunities": 343,
+  "total_executed_trades": 131,
+  "total_bundled_trades": 72,
+  "total_individual_trades": 59,
+  "bundling_rate": 1.0,
+  "hourly_stats": [
+    {
+      "hour": 0,
+      "total_opportunities": 10,
+      "bundleable": 3,
+      "executed_bundles": 3,
+      "executed_individual": 0
+    },
+    {
+      "hour": 1,
+      "total_opportunities": 18,
+      "bundleable": 4,
+      "executed_bundles": 4,
+      "executed_individual": 3
+    },
+    {
+      "hour": 2,
+      "total_opportunities": 11,
+      "bundleable": 2,
+      "executed_bundles": 2,
+      "executed_individual": 2
+    },
+    {
+      "hour": 3,
+      "total_opportunities": 11,
+      "bundleable": 3,
+      "executed_bundles": 3,
+      "executed_individual": 1
+    },
+    {
+      "hour": 4,
+      "total_opportunities": 13,
+      "bundleable": 1,
+      "executed_bundles": 1,
+      "executed_individual": 5
+    },
+    {
+      "hour": 5,
+      "total_opportunities": 14,
+      "bundleable": 2,
+      "executed_bundles": 2,
+      "executed_individual": 1
+    },
+    {
+      "hour": 6,
+      "total_opportunities": 15,
+      "bundleable": 3,
+      "executed_bundles": 3,
+      "executed_individual": 3
+    },
+    {
+      "hour": 7,
+      "total_opportunities": 13,
+      "bundleable": 3,
+      "executed_bundles": 3,
+      "executed_individual": 2
+    },
+    {
+      "hour": 8,
+      "total_opportunities": 12,
+      "bundleable": 2,
+      "executed_bundles": 2,
+      "executed_individual": 2
+    },
+    {
+      "hour": 9,
+      "total_opportunities": 18,
+      "bundleable": 4,
+      "executed_bundles": 4,
+      "executed_individual": 1
+    },
+    {
+      "hour": 10,
+      "total_opportunities": 10,
+      "bundleable": 1,
+      "executed_bundles": 1,
+      "executed_individual": 2
+    },
+    {
+      "hour": 11,
+      "total_opportunities": 17,
+      "bundleable": 7,
+      "executed_bundles": 7,
+      "executed_individual": 2
+    },
+    {
+      "hour": 12,
+      "total_opportunities": 18,
+      "bundleable": 2,
+      "executed_bundles": 2,
+      "executed_individual": 3
+    },
+    {
+      "hour": 13,
+      "total_opportunities": 19,
+      "bundleable": 2,
+      "executed_bundles": 2,
+      "executed_individual": 6
+    },
+    {
+      "hour": 14,
+      "total_opportunities": 15,
+      "bundleable": 6,
+      "executed_bundles": 6,
+      "executed_individual": 4
+    },
+    {
+      "hour": 15,
+      "total_opportunities": 13,
+      "bundleable": 2,
+      "executed_bundles": 2,
+      "executed_individual": 3
+    },
+    {
+      "hour": 16,
+      "total_opportunities": 14,
+      "bundleable": 3,
+      "executed_bundles": 3,
+      "executed_individual": 2
+    },
+    {
+      "hour": 17,
+      "total_opportunities": 12,
+      "bundleable": 4,
+      "executed_bundles": 4,
+      "executed_individual": 2
+    },
+    {
+      "hour": 18,
+      "total_opportunities": 18,
+      "bundleable": 3,
+      "executed_bundles": 3,
+      "executed_individual": 2
+    },
+    {
+      "hour": 19,
+      "total_opportunities": 10,
+      "bundleable": 2,
+      "executed_bundles": 2,
+      "executed_individual": 1
+    },
+    {
+      "hour": 20,
+      "total_opportunities": 19,
+      "bundleable": 1,
+      "executed_bundles": 1,
+      "executed_individual": 7
+    },
+    {
+      "hour": 21,
+      "total_opportunities": 11,
+      "bundleable": 2,
+      "executed_bundles": 2,
+      "executed_individual": 2
+    },
+    {
+      "hour": 22,
+      "total_opportunities": 19,
+      "bundleable": 4,
+      "executed_bundles": 4,
+      "executed_individual": 1
+    },
+    {
+      "hour": 23,
+      "total_opportunities": 13,
+      "bundleable": 6,
+      "executed_bundles": 6,
+      "executed_individual": 2
+    }
+  ],
+  "network_stats": {
+    "ethereum": {
+      "total_bundles": 25,
+      "executed_trades": 45
+    },
+    "polygon": {
+      "total_bundles": 24,
+      "executed_trades": 39
+    },
+    "arbitrum": {
+      "total_bundles": 8,
+      "executed_trades": 18
+    },
+    "optimism": {
+      "total_bundles": 13,
+      "executed_trades": 17
+    },
+    "base": {
+      "total_bundles": 2,
+      "executed_trades": 12
+    }
+  }
+}

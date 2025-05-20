@@ -1,0 +1,27 @@
+{
+  "transfer_history": {},
+  "fee_history": {
+    "binance_coinbase_BTC_USDT": [
+      {
+        "timestamp": "2025-03-27T10:51:30.442529",
+        "from_exchange": "binance",
+        "to_exchange": "coinbase",
+        "buy_currency": "BTC",
+        "sell_currency": "USDT",
+        "amount": 0.5,
+        "total_fee_pct": 0.005000000000000001
+      },
+      {
+        "timestamp": "2025-03-27T10:51:30.442750",
+        "from_exchange": "binance",
+        "to_exchange": "coinbase",
+        "buy_currency": "BTC",
+        "sell_currency": "USDT",
+        "amount": 0.5,
+        "total_fee_pct": 0.005000000000000001
+      }
+    ]
+  },
+  "liquidity_data": {},
+  "timestamp": "2025-03-27T10:51:30.443010"
+}

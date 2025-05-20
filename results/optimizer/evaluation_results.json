@@ -1,0 +1,42 @@
+{
+  "total_trades": 3,
+  "winning_trades": 3,
+  "win_rate": 1.0,
+  "profit_pct": 0.0054878016095201015,
+  "max_drawdown": 0.0,
+  "sharpe_ratio": 4.420817559254053,
+  "final_capital": 10054.878016095201,
+  "trades": [
+    {
+      "entry_price": 1.077028792076565,
+      "exit_price": 1.0822536328614951,
+      "entry_time": "2025-03-27 03:44:09.331724",
+      "exit_time": "2025-03-27 03:45:09.331724",
+      "position": "long",
+      "profit": 3.395813163359714,
+      "profit_pct": 0.004851161661942449,
+      "exit_reason": "signal"
+    },
+    {
+      "entry_price": 1.0944946834084286,
+      "exit_price": 1.07519103424626,
+      "entry_time": "2025-03-27 03:46:09.331724",
+      "exit_time": "2025-03-27 03:52:09.331724",
+      "position": "short",
+      "profit": 12.350122142611296,
+      "profit_pct": 0.017637042422219845,
+      "exit_reason": "signal"
+    },
+    {
+      "entry_price": 1.0835743817717116,
+      "exit_price": 1.0230945839434848,
+      "entry_time": "2025-03-27 03:53:09.331724",
+      "exit_time": "2025-03-27 04:02:09.331724",
+      "position": "short",
+      "profit": 39.132080789232454,
+      "profit_pct": 0.05581508648196216,
+      "exit_reason": "end_of_data"
+    }
+  ],
+  "timestamp": "2025-03-27T10:40:27.808817"
+}

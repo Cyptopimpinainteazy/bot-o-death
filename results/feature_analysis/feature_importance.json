@@ -1,0 +1,54 @@
+[
+  {
+    "Feature": "profit",
+    "MI_Score": 0.46042241618143986
+  },
+  {
+    "Feature": "spread",
+    "MI_Score": 0.23713809569209676
+  },
+  {
+    "Feature": "price",
+    "MI_Score": 0.22360181960213232
+  },
+  {
+    "Feature": "future_price",
+    "MI_Score": 0.2086332130018116
+  },
+  {
+    "Feature": "acceleration",
+    "MI_Score": 0.18525125443364576
+  },
+  {
+    "Feature": "depth",
+    "MI_Score": 0.12513152777280423
+  },
+  {
+    "Feature": "price_sma5",
+    "MI_Score": 0.12227469754484233
+  },
+  {
+    "Feature": "price_sma20",
+    "MI_Score": 0.11283677206247233
+  },
+  {
+    "Feature": "volume_sma5",
+    "MI_Score": 0.10385060507283495
+  },
+  {
+    "Feature": "volume",
+    "MI_Score": 0.09198426376815805
+  },
+  {
+    "Feature": "momentum",
+    "MI_Score": 0.07595006461619036
+  },
+  {
+    "Feature": "hour",
+    "MI_Score": 0.06891579901364198
+  },
+  {
+    "Feature": "volatility",
+    "MI_Score": 0.0022092995536802107
+  }
+]

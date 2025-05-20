@@ -1,0 +1,17 @@
+{
+    "start_time": "2025-03-27T04:44:28.870006",
+    "algorithm": "PPO",
+    "total_timesteps": 100000,
+    "chains": [
+        "Polygon",
+        "Solana",
+        "Ethereum"
+    ],
+    "parameters": {
+        "learning_rate": 0.0003,
+        "gamma": 0.99,
+        "exploration_fraction": 0.2
+    },
+    "error": "'list' object has no attribute 'init_callback'",
+    "error_time": "2025-03-27T04:44:40.506472"
+}

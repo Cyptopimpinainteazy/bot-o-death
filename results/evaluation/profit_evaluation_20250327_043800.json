@@ -1,0 +1,41 @@
+{
+    "model_path": "models/DQN_20250327_042613_final.zip",
+    "algorithm": "DQN",
+    "episodes": 3,
+    "steps_per_episode": 50,
+    "avg_return_pct": -0.3813580502195024,
+    "win_rate": 33.33333333333333,
+    "episode_results": [
+        {
+            "episode": 0,
+            "steps": 50,
+            "initial_portfolio": 10000,
+            "final_portfolio": 10043.641352776534,
+            "return_pct": 0.43641352776534403,
+            "max_portfolio": 10291.758460130595,
+            "min_portfolio": 9748.427392394418,
+            "trade_count": 0
+        },
+        {
+            "episode": 1,
+            "steps": 50,
+            "initial_portfolio": 10000,
+            "final_portfolio": 9848.8454874301,
+            "return_pct": -1.5115451256989945,
+            "max_portfolio": 10162.192587718397,
+            "min_portfolio": 9744.45107873365,
+            "trade_count": 0
+        },
+        {
+            "episode": 2,
+            "steps": 50,
+            "initial_portfolio": 10000,
+            "final_portfolio": 9993.105744727514,
+            "return_pct": -0.06894255272485679,
+            "max_portfolio": 10213.930454183255,
+            "min_portfolio": 9857.460036076374,
+            "trade_count": 0
+        }
+    ],
+    "timestamp": "2025-03-27T04:38:00.319154"
+}
