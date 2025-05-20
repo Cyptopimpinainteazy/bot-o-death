@@ -1,0 +1,7 @@
+{
+  "xgb_accuracy": 0.7272727272727273,
+  "lstm_accuracy": 0.8235294222831726,
+  "train_size": 86,
+  "test_size": 22,
+  "timestamp": "2025-03-27T04:03:12.328370"
+}

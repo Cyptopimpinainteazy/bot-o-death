@@ -1,0 +1,16 @@
+{
+    "timestamp": "2025-03-27T04:26:13.892301",
+    "algorithm": "DQN",
+    "timesteps": 1000,
+    "chains": [
+        {
+            "name": "Polygon",
+            "dex": "QuickSwap"
+        },
+        {
+            "name": "Solana",
+            "dex": "Raydium"
+        }
+    ],
+    "save_interval": 10000
+}
