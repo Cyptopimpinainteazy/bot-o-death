@@ -1,0 +1,129 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-03-27T10:40:28.176275",
+  "configuration": {
+    "version": "1.0",
+    "timestamp": "2025-03-27T10:40:13.490866",
+    "feature_weights": {
+      "profit": 0.22813519737818846,
+      "spread": 0.11749980966453442,
+      "price": 0.1107927056899687,
+      "future_price": 0.10337589473284337,
+      "acceleration": 0.09179034297522638,
+      "depth": 0.06200155505772206,
+      "price_sma5": 0.06058602118051129,
+      "price_sma20": 0.05590961334915882,
+      "volume_sma5": 0.051457047818451875,
+      "volume": 0.04557738162376206,
+      "momentum": 0.037632579069027575,
+      "hour": 0.034147163252488386,
+      "volatility": 0.0010946882081166059
+    },
+    "quantum_params": null,
+    "ensemble_settings": {
+      "model_weights": {
+        "rf": 1.0,
+        "xgb": 1.0,
+        "quantum": 1.5
+      },
+      "confidence_threshold": 0.8
+    },
+    "risk_management": {
+      "max_daily_drawdown": 0.05,
+      "max_drawdown": 0.15,
+      "max_leverage": 2.0,
+      "volatility_scaling": true
+    },
+    "backtesting": {
+      "initial_capital": 10000,
+      "position_size": 0.06999999999999999,
+      "max_open_positions": 3,
+      "stop_loss": 0.05,
+      "take_profit": 0.09000000000000001
+    }
+  },
+  "optimized_settings": {
+    "backtesting": {
+      "initial_capital": 10000,
+      "position_size": 0.06999999999999999,
+      "max_open_positions": 3,
+      "stop_loss": 0.05,
+      "take_profit": 0.09000000000000001
+    },
+    "optimization": {
+      "feature_weight_decay": 0.95,
+      "learning_rate": 0.01,
+      "batch_size": 32,
+      "epochs": 10,
+      "validation_split": 0.2
+    },
+    "ensemble": {
+      "model_weights": {
+        "rf": 1.0,
+        "xgb": 1.0,
+        "quantum": 1.5
+      },
+      "confidence_threshold": 0.8
+    },
+    "risk_management": {
+      "max_daily_drawdown": 0.05,
+      "max_drawdown": 0.15,
+      "max_leverage": 2.0,
+      "volatility_scaling": true
+    }
+  },
+  "evaluation_results": {
+    "total_trades": 3,
+    "winning_trades": 3,
+    "win_rate": 1.0,
+    "profit_pct": 0.0054878016095201015,
+    "max_drawdown": 0.0,
+    "sharpe_ratio": 4.420817559254053,
+    "final_capital": 10054.878016095201,
+    "trades": [
+      {
+        "entry_price": 1.077028792076565,
+        "exit_price": 1.0822536328614951,
+        "entry_time": "2025-03-27 03:44:09.331724",
+        "exit_time": "2025-03-27 03:45:09.331724",
+        "position": "long",
+        "profit": 3.395813163359714,
+        "profit_pct": 0.004851161661942449,
+        "exit_reason": "signal"
+      },
+      {
+        "entry_price": 1.0944946834084286,
+        "exit_price": 1.07519103424626,
+        "entry_time": "2025-03-27 03:46:09.331724",
+        "exit_time": "2025-03-27 03:52:09.331724",
+        "position": "short",
+        "profit": 12.350122142611296,
+        "profit_pct": 0.017637042422219845,
+        "exit_reason": "signal"
+      },
+      {
+        "entry_price": 1.0835743817717116,
+        "exit_price": 1.0230945839434848,
+        "entry_time": "2025-03-27 03:53:09.331724",
+        "exit_time": "2025-03-27 04:02:09.331724",
+        "position": "short",
+        "profit": 39.132080789232454,
+        "profit_pct": 0.05581508648196216,
+        "exit_reason": "end_of_data"
+      }
+    ],
+    "timestamp": "2025-03-27T10:40:27.808817"
+  },
+  "recommendations": [
+    {
+      "area": "Position Sizing",
+      "issue": "High win rate may allow more aggressive position sizing",
+      "recommendation": "Consider increasing position size by 20-30%"
+    },
+    {
+      "area": "Profitability",
+      "issue": "Low overall profit",
+      "recommendation": "Consider more aggressive trade selection and reducing trading costs"
+    }
+  ]
+}
