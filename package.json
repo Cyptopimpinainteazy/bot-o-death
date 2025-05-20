@@ -1,50 +1,5 @@
 {
-  "name": "enhanced-quantum-trade-ai",
-  "version": "1.0.0",
-  "description": "Advanced multi-chain arbitrage bot with AI price prediction and quantum-inspired path optimization",
-  "main": "server.js",
-  "scripts": {
-    "setup": "node setup.js",
-    "start": "node server.js",
-    "bot": "node run.js",
-    "test": "mocha",
-    "trade": "node tradeDirect.js",
-    "scan": "node scanOnly.js",
-    "simple": "node simpleTrade.js",
-    "build-frontend": "cd quantum-arbitrage-dashboard && npm run build",
-    "compile": "hardhat compile",
-    "deploy": "hardhat run scripts/deploy.js --network polygon"
-  },
-  "dependencies": {
-    "@aave/core-v3": "^1.19.3",
-    "@balancer-labs/v2-interfaces": "^0.4.0",
-    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
-    "@openzeppelin/contracts": "^4.9.3",
-    "@tensorflow/tfjs-node": "^4.17.0",
-    "axios": "^1.6.3",
-    "bignumber.js": "^9.1.1",
-    "chai": "^4.3.7",
-    "commander": "^11.1.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "ethers": "^5.7.2",
-    "express": "^4.18.2",
-    "fs-extra": "^11.2.0",
-    "hardhat": "^2.17.0",
-    "lodash": "^4.17.21",
-    "mathjs": "^12.3.0",
-    "mocha": "^10.2.0",
-    "nodemon": "^3.0.2",
-    "web3": "^1.9.0",
-    "js-yaml": "^4.1.0"
-  },
-  "devDependencies": {
-    "@nomicfoundation/hardhat-verify": "^2.0.13",
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "@nomiclabs/hardhat-etherscan": "^3.1.7"
-  },
-  "engines": {
-    "node": ">=16.0.0"
-  },
-  "private": true
+  "name": "triangular-arbitrage",
+  "private": true,
+  "dependencies": {}
 }

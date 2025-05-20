@@ -1,0 +1,36 @@
+providers:
+  ethereum: ["https://nd-428-726-926.chainstacklabs.com/warp"]
+  polygon: ["https://nd-697-001-036.chainstacklabs.com/warp"]
+  bsc: ["https://nd-116-462-307.chainstacklabs.com/warp"]
+  arbitrum_one: ["https://nd-148-171-122.chainstacklabs.com/warp"]
+subgraphs:
+  aave_v3_ethereum: "https://community-subgraphs.graph-eu.p2pify.com/5ab633b4bc56d1b44b71181b629d28b7/community-aave-v3"
+  uniswap_v3_ethereum: "https://community-subgraphs.graph-eu.p2pify.com/b2f3a30978cbf949c2faa2ad97a0b75b/uniswap-v3"
+  usdc_transfers_ethereum: "https://community-subgraphs.graph-eu.p2pify.com/f6efab8ced3fb7309e3bdd71968fded1/community-usdc"
+  balancer_v2_polygon: "https://community-subgraphs.graph-eu.p2pify.com/e79377e028faaef3e6ddb325c3512869/community-balancer-v2"
+  yearn_ethereum: "https://community-subgraphs.graph-eu.p2pify.com/ab66688b0c06ee52ddc86fb8ca1d7ac2/community-yearn"
+  dydx_ethereum: "https://community-subgraphs.graph-eu.p2pify.com/9f4511da223c6bb37453e05659d52bc3/community-dydx"
+contracts:
+  triple_flashloan:
+    polygon: "0xYourTripleFlashloanAddress"
+flashloan_providers:
+  aave: "0x794a61358D6845594F94dc1DB02A252b5b4814aD"  # Polygon Aave V3
+  balancer: "0xBA12222222228d8Ba445958a75a0704d566BF2C8"  # Balancer V2
+  equalizer: "0xYourEqualizerAddress"
+  dodo: "0xYourDODOPoolAddress"
+apis:
+  chainstack_eth: { limit: 130 }
+  chainstack_poly: { limit: 130 }
+  chainstack_bnb: { limit: 130 }
+  chainstack_arb: { limit: 130 }
+  chainstack_subgraph_aave: { limit: 1000 }
+  chainstack_subgraph_uniswap: { limit: 1000 }
+  chainstack_subgraph_usdc: { limit: 1000 }
+  chainstack_subgraph_balancer: { limit: 1000 }
+  chainstack_subgraph_yearn: { limit: 1000 }
+  chainstack_subgraph_dydx: { limit: 1000 }
+salmonella:
+  bait_amount: 100000000000000000  # 0.1 ETH—scaled down
+  bait_gas_price: 20  # Gwei—cheaper
+  monitor_interval: 10  # Seconds
+  profit_threshold: 50000000000000000  # 0.05 ETH
