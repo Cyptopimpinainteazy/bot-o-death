@@ -35,7 +35,7 @@
     "mathjs": "^12.3.0",
     "mocha": "^10.2.0",
     "nodemon": "^3.0.2",
-    "web3": "^1.9.0",
+    "web3": "^4.16.0",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
